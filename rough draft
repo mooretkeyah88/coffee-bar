@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kay's Coffee</title>
+    <link rel="stylesheet" href="style.css"
+</head> 
+
+<body>
+    <header> main home page header. insert company banner </header>
+     <main>
+    <article>  
+        <section>
+            <p><em><b> Browse and Order your favorite coffee from Kay's Coffee Bar! We have plenty of selections for you to choose from!</b></em></p>
+        </section>
+        <div> 
+    .div1 { 
+        width: 120px;
+        height: 240px;
+        border: 1px solid black;
+        }
+            <img href="images/pexels-valeriia-miller-3146167.jpg"> 
+
+        </div>
+insert your eleven coffee images here. make sure to create home boarders and stuff.
+    </article>
+    </main>
+     <div> 
+    YOUTUBE API
+    <iframe> width="560" height="315" src="https://www.youtube.com/embed/VMAPTo7RVCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen</iframe>
+        </div>
+    GOOGLE SEARCH ENGINE
+    <script async src="https://cse.google.com/cse.js?cx=1a14209ab1075c2e9"></script>
+<div class="gcse-search"></div>
+    CHICAGO MAP
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380510.67420441343!2d-88.01215965934361!3d41.8339041646051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1619239218439!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  
+</body>
+</html>
+
+
