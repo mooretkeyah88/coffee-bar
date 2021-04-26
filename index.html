@@ -3,26 +3,31 @@
 <head>
 <meta charset="utf-8">
 <title>Kay's Coffee</title>
-    <link rel="stylesheet" href="style.css"
+<link rel="stylesheet" href="style.css">
+<!-- General Syntax Error: Won't stop your site from working, but will cause you to not be HTML validated -->
+
 </head> 
 
 <body>
-    <header> main home page header. insert company banner </header>
-     <main>
+    <header>
+        <!-- main home page header. insert company banner -->
+    </header>
+    <main>
     <article>  
         <section>
             <p><em><b> Browse and Order your favorite coffee from Kay's Coffee Bar! We have plenty of selections for you to choose from!</b></em></p>
         </section>
-        <div> 
-    .div1 { 
+        <!-- There are a couple things off about this: 1. CSS information should be in a style tag in the head, not the body (In this case, we'd want to put it in style.css as we are linking the file to HTML). 2. CSS syntax says that anything following a period must be the name of the class (I.E .divclass{} css code) and must define a class in HTML (I.E <div class="divclass"> code </div>). 3. I'd use a different name from div1. You want your css to make sense to you and your professor. -->
+        <div class="div1"> 
+    <!--.div1 { 
         width: 120px;
         height: 240px;
         border: 1px solid black;
-        }
+        }-->
             <img href="images/pexels-valeriia-miller-3146167.jpg"> 
-
+            <!-- Since you are nesting the image tag in the div tag, you shouldn't need styling for this. Nothing you did wrong, just something to note. Also, you need to incorperate accessibility by using the alt="" tag to briefly describe the image -->
         </div>
-insert your eleven coffee images here. make sure to create home boarders and stuff.
+<!-- insert your eleven coffee images here. make sure to create home boarders and stuff. # Right, you'll have to take into account the offsetting you plan on doing with these 11 images. That can be done by using the same format.-->
     </article>
     </main>
      <div> 
